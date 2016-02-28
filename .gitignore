@@ -19,8 +19,6 @@
 *.rar
 *.tar
 *.zip
-target/
-.idea/
 
 # Logs and databases #
 ######################
