@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Base:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Base_jar</output-path>
+    <root id="archive" name="Base.jar">
+      <element id="module-output" name="Base" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sk89q/command-framework-core/0.5-SNAPSHOT/command-framework-core-0.5-20140901.220141-6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sk89q/command-framework-bukkit/0.5-SNAPSHOT/command-framework-bukkit-0.5-20140901.220140-6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

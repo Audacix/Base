@@ -1,6 +1,9 @@
 package com.audacix.base.utils;
 
+
 import com.audacix.base.utils.string.StringUtils;
+
+import java.lang.reflect.Method;
 
 /**
  * @author Javi
@@ -9,10 +12,15 @@ public class Utility {
 
     public Utility() {}
 
-    public Utility getUtilityPackage(String s) {
-        if (s.equals("string")) {
-            return new StringUtils();
+    public Method getUtil(String search) {
+        for (Method m : this.getClass().getDeclaredMethods()) {
+            if (m.getName().toLowerCase().contains(search.toLowerCase())) return m;
         }
         return null;
     }
+
+    public StringUtils getStringUtils() {
+        return new StringUtils();
+    }
+
 }

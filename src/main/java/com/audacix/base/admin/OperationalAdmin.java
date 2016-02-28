@@ -12,7 +12,7 @@ public class OperationalAdmin {
     public OperationalAdmin (Admin a) {}
 
     public void log(String prefix, String message) {
-        Bukkit.getLogger().log(Level.INFO, "ADMIN EXECUTION: function = log: " + prefix + " " + message);
+        Bukkit.getLogger().log(Level.INFO, "!! ADMIN EXECUTION !!: " + prefix + " " + message);
     }
 }
 
