@@ -15,7 +15,7 @@ public class PlayerJoinListener implements Listener {
 
     @EventHandler
     public void onJoin(final PlayerJoinEvent event) {
-        Title t = new Title("&9&lAUDACIX", "&7&lThe first Minecraft futuristic MMORPG", 20, 50, 20);
+        Title t = new Title("&b&lAUDACIX", "&7&lThe first Minecraft futuristic MMORPG", 20, 50, 20);
         t.setTimingsToTicks();
         t.send(event.getPlayer());
 

@@ -19,8 +19,6 @@ public class Utility {
         return null;
     }
 
-    public StringUtils getStringUtils() {
-        return new StringUtils();
-    }
+
 
 }
